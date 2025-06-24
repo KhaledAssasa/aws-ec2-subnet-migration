@@ -23,24 +23,25 @@ This PowerShell script automates the migration of EC2 instances between subnets/
 
 
 🛠️ Pre-Run Checklist
-IAM Requirements:
+•	IAM Requirements:
 
-The user must have EC2FullAccess permissions
+•	The user must have EC2FullAccess permissions
 
-Add MFA if available (aws iam enable-mfa-device)
+•	Add MFA if available (aws iam enable-mfa-device)
 
-Resource Preparation:
+•	Resource Preparation:
 
-Ensure the target VPC/subnet exists
+•	Ensure the target VPC/subnet exists
 
-Note source instance ID and volume details
+•	Note source instance ID and volume details
 
-Allocate sufficient EBS snapshot space
+•	Allocate sufficient EBS snapshot space
 
-Safety Measures:
+•	Safety Measures:
 
-Take a manual snapshot as backup
+•	Take a manual snapshot as backup
 
-Stop production traffic to the source instance
+•	Stop production traffic to the source instance
 
-Test in the non-production environment first
+•	Test in the non-production environment first
+
