@@ -23,7 +23,8 @@ This PowerShell script automates the migration of EC2 instances between subnets/
 
 
 🛠️ Pre-Run Checklist
-•	IAM Requirements:
+
+•	IAM Requirements
 
 •	The user must have EC2FullAccess permissions
 
