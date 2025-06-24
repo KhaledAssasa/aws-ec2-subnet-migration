@@ -1,4 +1,3 @@
-Create MigrateEc2.ps
 # AWS EC2 Instance Migration Tool
 
 ## 🔄 What This Script Does
